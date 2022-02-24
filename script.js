@@ -37,7 +37,7 @@ var main = function (input) {
   else if (Username.length === 0 && !(input.trim() == "")) {
     // Username = [];
     Username[0] = input;
-    myOutputValue = `Welome ${Username[0]}. <br> Input 2nd Username`;
+    myOutputValue = `Welcome ${Username[0]}. <br> Input 2nd Username`;
   }
   // null 2nd user input
   else if (
@@ -45,7 +45,7 @@ var main = function (input) {
     Username.length === 1 &&
     input.trim() == ""
   ) {
-    myOutputValue = `Welome ${Username[0]}. <br> Input 2nd Username`;
+    myOutputValue = `Welcome ${Username[0]}. <br> Input 2nd Username`;
   }
   // both user input
   else if (
@@ -54,7 +54,7 @@ var main = function (input) {
     !(input.trim() == "")
   ) {
     Username[1] = input;
-    myOutputValue = `Welome ${Username[0]}. <br> Welome ${Username[1]}. <br> Autobots let's roll~`;
+    myOutputValue = `Welcome ${Username[0]}. <br> Welcome ${Username[1]}. <br> Autobots let's roll~`;
   }
   // BOTH USERS BEGINS PLAY
   else if (Username.length === 2) {
